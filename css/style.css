@@ -1,0 +1,92 @@
+
+
+header{
+	font-family: 'Reem Kufi Fun', sans-serif !important;
+	font-size: 1.25em;
+	width: 100%;
+}
+
+body{
+	font-family: 'Frank Ruhl Libre', serif !important;
+	width: auto !important;
+}
+
+a.active{
+	background-color: #D9D7A5;
+	/*border-style: solid;*/
+	border-color: #B3B188;
+	/*text-decoration: underline !important;*/
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+
+.fixed_margin {
+ 	margin-top: 2% !important;
+ 	/*margin-bottom: 3% !important; */
+}
+.stilelink{
+	color: #54565d;
+	text-decoration: none;
+}
+
+.stilelink:hover{
+	color: #54565d;
+}
+main div a:hover{
+	color: #9a4c4a;
+}
+
+
+#centrale{
+	margin-left: 5% !important;
+	font-size: 1.50em;
+	text-align: justify;
+}
+ 
+nav{
+	padding-left: 33% !important;	
+	padding-bottom: 1.5% !important;
+	padding-top: 1.5% !important;
+}
+
+
+main {
+	/*background: url(../images/home2.jpg) no-repeat;*/
+	/*min-height: calc(100vh-)*/
+	color: #54565d;
+}
+
+footer p {
+	margin-top: 30px;
+	text-align: center;
+	
+	
+}
+
+footer {
+  	width: 100%;
+  	bottom: 0;
+  	left: 0;
+  	text-align: center;
+}
+
+.interlinea{
+	line-height: 2;
+}
+
+.dimensione{
+	font-size: 1.5em;
+}
+
+.titolo_articoli{
+ text-decoration-line: underline;
+ font-family: 'Reem Kufi Fun', sans-serif !important;
+}
+
+.titolo{
+	font-family: 'Reem Kufi Fun', sans-serif !important;
+	color: #9a4c4a;
+}
