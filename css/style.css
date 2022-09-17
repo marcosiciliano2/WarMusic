@@ -7,8 +7,13 @@ header{
 }
 
 body{
-	font-family: 'Frank Ruhl Libre', serif !important;
-	width: auto !important;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+nav{
+	padding-left: 33% !important;	
+	padding-bottom: 1.5% !important;
+	padding-top: 1.5% !important;
 }
 
 a.active{
@@ -22,11 +27,19 @@ a.active{
 	border-bottom-right-radius: 8px;
 }
 
+main div a:hover{
+	color: #9a4c4a;
+}
 
 .fixed_margin {
  	margin-top: 2% !important;
- 	/*margin-bottom: 3% !important; */
 }
+
+.titolo{
+	font-family: 'Reem Kufi Fun', sans-serif !important;
+	color: #9a4c4a;
+}
+
 .stilelink{
 	color: #54565d;
 	text-decoration: none;
@@ -35,35 +48,50 @@ a.active{
 .stilelink:hover{
 	color: #54565d;
 }
-main div a:hover{
-	color: #9a4c4a;
+
+.titolo_articoli{
+ text-decoration-line: underline;
+ font-family: 'Reem Kufi Fun', sans-serif !important;
 }
 
+.responsive{
+	 max-width: 100%;
+  	 height: auto;
+}
 
 #centrale{
-	margin-left: 5% !important;
+	/*margin-left: 5% !important;*/
 	font-size: 1.50em;
 	text-align: justify;
 }
- 
-nav{
-	padding-left: 33% !important;	
-	padding-bottom: 1.5% !important;
-	padding-top: 1.5% !important;
+
+ .interlinea{
+	line-height: 2;
 }
 
-
-main {
-	/*background: url(../images/home2.jpg) no-repeat;*/
-	/*min-height: calc(100vh-)*/
-	color: #54565d;
+form{
+	padding-top: 10%;
 }
 
-footer p {
-	margin-top: 30px;
-	text-align: center;
-	
-	
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+textarea{
+	width: 100%;
+	  height: 30vh;
+	  padding: 12px 20px;
+	  border: 2px solid #ccc;
+	  border-radius: 4px;
+	  background-color: #f8f8f8;
+	  font-size: 1em;
+	  resize: none;
+}
+
+main button{
+	margin-bottom: 5% !important;
 }
 
 footer {
@@ -73,20 +101,15 @@ footer {
   	text-align: center;
 }
 
-.interlinea{
-	line-height: 2;
+.icone{
+	padding-left: 81%;
+	padding-top: 0px;
 }
+
+
 
 .dimensione{
 	font-size: 1.5em;
 }
 
-.titolo_articoli{
- text-decoration-line: underline;
- font-family: 'Reem Kufi Fun', sans-serif !important;
-}
 
-.titolo{
-	font-family: 'Reem Kufi Fun', sans-serif !important;
-	color: #9a4c4a;
-}
