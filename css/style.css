@@ -18,13 +18,15 @@ nav{
 
 a.active{
 	background-color: #D9D7A5;
-	/*border-style: solid;*/
-	border-color: #B3B188;
 	/*text-decoration: underline !important;*/
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
+}
+
+.colore{
+	color:#54565d;
 }
 
 main div a:hover{
@@ -38,11 +40,12 @@ main div a:hover{
 .titolo{
 	font-family: 'Reem Kufi Fun', sans-serif !important;
 	color: #9a4c4a;
+	text-align: center;
 }
 
 .stilelink{
-	color: #54565d;
 	text-decoration: none;
+	color:#54565d;
 }
 
 .stilelink:hover{
@@ -61,7 +64,7 @@ main div a:hover{
 
 #centrale{
 	/*margin-left: 5% !important;*/
-	font-size: 1.50em;
+	font-size: 1.5em;
 	text-align: justify;
 }
 
@@ -70,7 +73,9 @@ main div a:hover{
 }
 
 form{
-	padding-top: 10%;
+	padding-top: 5px;
+	padding-left: 30%;
+	max-width: 70%;
 }
 
 input[type=text] {
@@ -90,8 +95,36 @@ textarea{
 	  resize: none;
 }
 
-main button{
+#bottone{
 	margin-bottom: 5% !important;
+	background-color: #D4BA8C; 
+	border: none;
+	color: white;
+	padding: 1% 4%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+	/*margin: 4px 2px;*/
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#bottone {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #D4BA8C;
+  margin-left: 44%;
+}
+
+#bottone:hover{
+	background-color: #D4BA8C;
+    color: white;
+}
+
+.commento{
+	border-bottom-style: solid;
+	border-bottom-color: grey;
 }
 
 footer {
@@ -102,14 +135,32 @@ footer {
 }
 
 .icone{
-	padding-left: 81%;
+	padding-left: 45.3%;
 	padding-top: 0px;
 }
-
 
 
 .dimensione{
 	font-size: 1.5em;
 }
 
+.postimg{
+	float:left;
+	margin-right: 2.5%;
+}
+
+.giustificato{
+	text-align: justify;
+}
+
+.minipost{
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+	margin-bottom: 2%;
+	text-align: justify;
+}
+
+.aboutme{
+	margin: 5% 30% 5% 30%;
+}
 
