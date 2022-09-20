@@ -52,6 +52,14 @@ main div a:hover{
 	color: #54565d;
 }
 
+.stilelinkart{
+	color:#9a4c4a;
+}
+
+.stilelinkart:hover{
+	color: #9a4c4a;
+}
+
 .titolo_articoli{
  text-decoration-line: underline;
  font-family: 'Reem Kufi Fun', sans-serif !important;
@@ -164,3 +172,49 @@ footer {
 	margin: 5% 30% 5% 30%;
 }
 
+.testo{
+	color:#54565d;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+.linkarticoli{
+	padding-left: 17.5%;
+	font-size: 1.5em;
+}
+
+.linkarticoli:hover{
+	color:#9a4c4a;
+}
+
+
+.linkarticoli2{
+	padding-left: 40%;
+	font-size: 1.5em;
+}
+
+.linkarticoli2:hover{
+	color:#9a4c4a;
+}
+
+
+#linkhome{
+	font-size: 1.5em;
+	text-align: left;
+	padding-left: 17.5%;
+	display:block
+}
+
+#linkhome:hover{
+	color:#9a4c4a;
+}
+
+.fonti{
+	text-align:center; 
+	color: #D3D3D3; 
+		font-size:0.5em;
+}
+
+.fontilink{
+	text-decoration: none;
+}
