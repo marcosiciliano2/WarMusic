@@ -218,3 +218,12 @@ footer {
 .fontilink{
 	text-decoration: none;
 }
+
+.paragrafo{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#albero{
+	margin-left: 4%
+}
