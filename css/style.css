@@ -1,229 +1,202 @@
-
-
-header{
-	font-family: 'Reem Kufi Fun', sans-serif !important;
-	font-size: 1.25em;
-	width: 100%;
+header {
+    font-family: "Reem Kufi Fun",sans-serif!important;
+    font-size: 1.25em;
+    width: 100%
 }
 
-body{
-	font-family: 'Frank Ruhl Libre', serif;
+body {
+    font-family: "Frank Ruhl Libre",serif
 }
 
-nav{
-	padding-left: 33% !important;	
-	padding-bottom: 1.5% !important;
-	padding-top: 1.5% !important;
+nav {
+    padding-left: 33%!important;
+    padding-bottom: 1.5%!important;
+    padding-top: 1.5%!important
 }
 
-a.active{
-	background-color: #D9D7A5;
-	/*text-decoration: underline !important;*/
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
+a.active {
+    background-color: #D9D7A5;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px
 }
 
-.colore{
-	color:#54565d;
+.colore,.stilelink:hover,#aboutme,#centrale,h3 {
+    color: #54565D !important
 }
 
-main div a:hover{
-	color: #9a4c4a;
+.noscrollbarx{
+	max-width: 100%;
+}
+
+main div a:hover {
+    color: #9A4C4A
 }
 
 .fixed_margin {
- 	margin-top: 2% !important;
+    margin-top: 2%!important
 }
 
-.titolo{
-	font-family: 'Reem Kufi Fun', sans-serif !important;
-	color: #9a4c4a;
-	text-align: center;
+.titolo {
+    font-family: "Reem Kufi Fun",sans-serif!important;
+    color: #9A4C4A;
+    text-align: center
 }
 
-.stilelink{
-	text-decoration: none;
-	color:#54565d;
+.stilelink {
+    text-decoration: none;
+    color: #54565D
 }
 
-.stilelink:hover{
-	color: #54565d;
+.linkarticoli2:hover,.linkarticoli:hover,.linkhome:hover,.stilelinkart,.stilelinkart:hover{
+    color: #9A4C4A
 }
 
-.stilelinkart{
-	color:#9a4c4a;
+.titolo_articoli {
+    text-decoration-line: underline;
+    font-family: "Reem Kufi Fun",sans-serif!important
 }
 
-.stilelinkart:hover{
-	color: #9a4c4a;
+.responsive {
+    max-width: 100%;
+    height: auto
 }
 
-.titolo_articoli{
- text-decoration-line: underline;
- font-family: 'Reem Kufi Fun', sans-serif !important;
+#centrale {
+    text-align: justify
 }
 
-.responsive{
-	 max-width: 100%;
-  	 height: auto;
+.interlinea {
+    line-height: 2
 }
 
-#centrale{
-	/*margin-left: 5% !important;*/
-	font-size: 1.5em;
-	text-align: justify;
+form {
+    padding-top: 5px;
+    padding-left: 30%;
+    max-width: 70%;
+    text-align: left
 }
 
- .interlinea{
-	line-height: 2;
+input[type=text],textarea {
+    width: 100%;
+    padding: 15px 
 }
 
-form{
-	padding-top: 5px;
-	padding-left: 30%;
-	max-width: 70%;
+
+textarea {
+    height: 30vh;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #F8F8F8;
+    font-size: 1em;
+    resize: none
 }
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-}
-
-textarea{
-	width: 100%;
-	  height: 30vh;
-	  padding: 12px 20px;
-	  border: 2px solid #ccc;
-	  border-radius: 4px;
-	  background-color: #f8f8f8;
-	  font-size: 1em;
-	  resize: none;
-}
-
-#bottone{
-	margin-bottom: 5% !important;
-	background-color: #D4BA8C; 
-	border: none;
-	color: white;
-	padding: 1% 4%;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	
-	/*margin: 4px 2px;*/
-	transition-duration: 0.4s;
-	cursor: pointer;
+#bottone,footer {
+    text-align: center
 }
 
 #bottone {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #D4BA8C;
-  margin-left: 44%;
+    margin-bottom: 5%!important;
+    padding: 1% 4%;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: .4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #D4BA8C;
+    margin-left: 44%
 }
 
-#bottone:hover{
-	background-color: #D4BA8C;
-    color: white;
+#bottone:hover {
+    background-color: #D4BA8C;
+    color: white
 }
 
-.commento{
-	border-bottom-style: solid;
-	border-bottom-color: grey;
+.commento {
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    color: #54565D
 }
 
 footer {
-  	width: 100%;
-  	bottom: 0;
-  	left: 0;
-  	text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0
 }
 
-.icone{
-	padding-left: 45.3%;
-	padding-top: 0px;
+.icone {
+    padding-left: 45.3%
 }
 
-
-.dimensione{
-	font-size: 1.5em;
+.dimensione,#aboutme,#centrale {
+    font-size: 1.5em
 }
 
-.postimg{
-	float:left;
-	margin-right: 2.5%;
+.postimg {
+    float: left;
+    margin-right: 2.5%
 }
 
-.giustificato{
-	text-align: justify;
+.giustificato,.minipost,#aboutme,#centrale {
+    text-align: justify
 }
 
-.minipost{
-	border-bottom-style: solid;
-	border-bottom-color: grey;
-	margin-bottom: 2%;
-	text-align: justify;
+.minipost {
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    margin-bottom: 2%
 }
 
-.aboutme{
-	margin: 5% 30% 5% 30%;
+#aboutme {
+    margin: 5% 30%
 }
 
-.testo{
-	color:#54565d;
-	font-size: 1.5em;
-	text-align: justify;
+.testo {
+    color: #54565D;
+    font-size: 1.5em;
+    text-align: justify
 }
 
-.linkarticoli{
-	padding-left: 17.5%;
-	font-size: 1.5em;
+.linkarticoli {
+    padding-left: 17.5%;
+    font-size: 1.5em
 }
 
-.linkarticoli:hover{
-	color:#9a4c4a;
+.linkarticoli2 {
+    padding-left: 40%;
+    font-size: 1.5em
 }
 
-
-.linkarticoli2{
-	padding-left: 40%;
-	font-size: 1.5em;
+.linkhome {
+    text-align: left;
+    padding-left: 17.5%;
+    display: block;
+    font-size: 1.5em
 }
 
-.linkarticoli2:hover{
-	color:#9a4c4a;
+.fonti {
+    text-align: center;
+    color: #d3d3d3;
+    font-size: .5em
 }
 
-
-#linkhome{
-	font-size: 1.5em;
-	text-align: left;
-	padding-left: 17.5%;
-	display:block
+.fontilink {
+    text-decoration: none
 }
 
-#linkhome:hover{
-	color:#9a4c4a;
+.paragrafo {
+    padding-left: 10%;
+    padding-right: 10%
 }
 
-.fonti{
-	text-align:center; 
-	color: #D3D3D3; 
-		font-size:0.5em;
+h4{
+	text-decoration:underline; 
+	color:#8A7A53 !important
 }
 
-.fontilink{
-	text-decoration: none;
-}
-
-.paragrafo{
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-#albero{
-	margin-left: 4%
+#albero {
+    margin-left: 4%
 }
