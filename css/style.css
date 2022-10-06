@@ -67,10 +67,6 @@ main div a:hover {
     text-align: justify
 }
 
-.interlinea {
-    line-height: 2
-}
-
 form {
     padding-top: 5px;
     padding-left: 30%;
@@ -150,9 +146,7 @@ footer {
     margin-bottom: 2%
 }
 
-#aboutme {
-    margin: 5% 30%
-}
+
 
 .testo {
     color: #54565D;
@@ -199,4 +193,8 @@ h4{
 
 #albero {
     margin-left: 4%
+}
+
+.allineate {
+  float:left;
 }
